@@ -7,7 +7,7 @@ from fdf.thetaconv.activations import SnakeBeta, Activation1d
 import torch.nn.functional as F
 from torch_gfrft.torch_gfrft.gft import GFT
 from torch_gfrft.torch_gfrft.gfrft import GFRFT
-from torch_gfrft.torch_gfrft.layer import GFTLayer, IGFTLayer, GFRFTLayer
+from torch_gfrft.torch_gfrft.layer import  GFRFTLayer
 from torch_gfrft.torch_gfrft import EigvalSortStrategy, ComplexSortStrategy
 
 
